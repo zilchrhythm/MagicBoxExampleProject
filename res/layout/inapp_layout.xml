@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <Button 
+        android:id="@+id/inapp_query_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Query Item"
+        />
+    
+    <Button 
+        android:id="@+id/inapp_purchase_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Purchase Item"/>
+    
+    <Button 
+        android:id="@+id/inapp_query_purchased"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Query Purchased Item"
+        />
+    
+    <Button 
+        android:id="@+id/inapp_consume_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Consume Item"/>
+
+</LinearLayout>
